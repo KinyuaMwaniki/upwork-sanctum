@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "62be432a-156b-436e-a7c1-02cb463654da",
+		"_postman_id": "0a2549ff-73ed-428e-b4be-a6b4b5f6cdb5",
 		"name": "Upwork Sanctum",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -25,7 +25,7 @@
 					"formdata": [
 						{
 							"key": "email",
-							"value": "kinyuamwaniki@gmail.com",
+							"value": "kinyuamwaniki2@outlook.com",
 							"type": "text"
 						},
 						{
@@ -39,11 +39,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/login",
+					"raw": "{{base_url}}/api/v1/login",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"login"
 					]
 				}
@@ -72,11 +74,13 @@
 					}
 				],
 				"url": {
-					"raw": "{{base_url}}/logout",
+					"raw": "{{base_url}}/api/v1/logout",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"logout"
 					]
 				}
@@ -105,11 +109,13 @@
 					}
 				],
 				"url": {
-					"raw": "{{base_url}}/user/info",
+					"raw": "{{base_url}}/api/v1/user/info",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"user",
 						"info"
 					]
@@ -167,11 +173,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/register",
+					"raw": "{{base_url}}/api/v1/register",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
+						"api",
+						"v1",
 						"register"
 					]
 				}
@@ -183,7 +191,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8613c8f8-6f2c-4c7a-a69e-221c5d501453",
+				"id": "290cb416-5f7c-4899-9196-379d20fcf212",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -193,7 +201,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "56968d83-0003-4a1d-9052-459f115707e1",
+				"id": "94a45b66-88f3-4835-b97b-a30510b9adeb",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -203,12 +211,12 @@
 	],
 	"variable": [
 		{
-			"id": "b3e8fbde-f129-4c90-987b-fb9373c684b9",
+			"id": "e9bf0cf7-a018-4914-bbf7-733467bde3e3",
 			"key": "token",
 			"value": "1"
 		},
 		{
-			"id": "355a5adf-cf7a-4b4b-9040-2c040bf9ecf0",
+			"id": "439623f6-fba5-46db-89e0-3dccbf788a09",
 			"key": "base_url",
 			"value": "http://sanctum.test/api/v1"
 		}
